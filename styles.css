@@ -200,10 +200,11 @@ Sidebar
   transition: var(--transition);
   cursor: pointer;
   color: var(--clr-red-dark);
+  outline: none;
 }
 .close-btn:hover {
   color: var(--clr-red-light);
-  transform: rotate(360deg);
+  /* transform: rotate(360deg); */
 }
 .logo {
   justify-self: center;
@@ -250,7 +251,7 @@ Sidebar
   row-gap: 1rem;
   box-shadow: var(--clr-red-dark);
   transition: var(--transition);
-  transform: translate(-100%);
+  transform: translate(-100%); 
 }
 .show-sidebar {
   transform: translate(0);
